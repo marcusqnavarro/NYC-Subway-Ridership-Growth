@@ -24,3 +24,9 @@ Step 3
   - Python:
     - subway - regression abosulte change → addresses skewness of variables by winsorizing and checks for multicollinearity. Fits OLS regression model for absolute changes.
     - subway - regression percent change → addresses skewness of variables by winsorizing and checks for multicollinearity. Fits OLS regression model for percent changes.
+
+Step 4
+  - Python:
+    - subway - mapping → creates map using zip code and stations dataframes
+  - HTML:
+    - NYC zip codes and subway stations map → map saved off to open in browser
