@@ -15,14 +15,14 @@ Step 1
 
 Step 2
   - Python:
-    - subway - data pull and wrangling → appends joined and unjoined (fixed) stations. API calls for zip code-leve and ZCTA-level Census data. Uses zip code to ZCTA crosswalk to merge Census data on a zip code-level. Uses spatial joining to merge stations with zip codes within 0.5 miles of each station. Calculates absolute change and percent change features.
+    - subway - data pull and wrangling → appends joined and unjoined (fixed) stations. API calls for zip code-level and ZCTA-level Census data. Uses zip code to ZCTA crosswalk to merge Census data on a zip code-level. Uses spatial joining to merge stations with zip codes within 0.5 miles of each station. Calculates absolute change and percent change features.
   - CSV:
-    - absolute change regression data & percent change regresssion data → saved dataframes for regression models
+    - absolute change regression data & percent change regression data → saved dataframes for regression models
     - stations - mapping & zip codes - mapping → saved dataframes for mapping
 
 Step 3
   - Python:
-    - subway - regression abosulte change → addresses skewness of variables by winsorizing and checks for multicollinearity. Fits OLS regression model for absolute changes.
+    - subway - regression absolute change → addresses skewness of variables by winsorizing and checks for multicollinearity. Fits OLS regression model for absolute changes.
     - subway - regression percent change → addresses skewness of variables by winsorizing and checks for multicollinearity. Fits OLS regression model for percent changes.
 
 Step 4
